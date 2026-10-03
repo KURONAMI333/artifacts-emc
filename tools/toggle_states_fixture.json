@@ -1,0 +1,79 @@
+{
+  "purpose": "regression fixture for ProjectE custom conversion Unit component encoding",
+  "unit_payload_status": "runtime_decode_verified",
+  "values": {
+    "before": [
+      {
+        "type": "projecte:item",
+        "id": "artifacts:charm_of_shrinking",
+        "emc_value": 8192
+      },
+      {
+        "type": "projecte:item",
+        "id": "artifacts:charm_of_shrinking",
+        "data": {
+          "artifacts:disabled_by_toggle": {}
+        },
+        "emc_value": 8192
+      },
+      {
+        "type": "projecte:item",
+        "id": "artifacts:charm_of_sinking",
+        "emc_value": 16384
+      },
+      {
+        "type": "projecte:item",
+        "id": "artifacts:charm_of_sinking",
+        "data": {
+          "artifacts:disabled_by_toggle": {}
+        },
+        "emc_value": 16384
+      },
+      {
+        "type": "projecte:item",
+        "id": "artifacts:night_vision_goggles",
+        "emc_value": 8192
+      },
+      {
+        "type": "projecte:item",
+        "id": "artifacts:night_vision_goggles",
+        "data": {
+          "artifacts:disabled_by_toggle": {}
+        },
+        "emc_value": 8192
+      },
+      {
+        "type": "projecte:item",
+        "id": "artifacts:scarf_of_invisibility",
+        "emc_value": 16384
+      },
+      {
+        "type": "projecte:item",
+        "id": "artifacts:scarf_of_invisibility",
+        "data": {
+          "artifacts:disabled_by_toggle": {}
+        },
+        "emc_value": 16384
+      },
+      {
+        "type": "projecte:item",
+        "id": "artifacts:universal_attractor",
+        "emc_value": 8192
+      },
+      {
+        "type": "projecte:item",
+        "id": "artifacts:universal_attractor",
+        "data": {
+          "artifacts:disabled_by_toggle": {}
+        },
+        "emc_value": 8192
+      }
+    ]
+  },
+  "evidence": {
+    "runtime": "Minecraft 1.21.1 / NeoForge 21.1.247 / Artifacts 13.2.5 / ProjectE 1.1.0",
+    "observed": "/Users/kura/dev/projects/minecraft-mod-dev/_research/emc-coverage-packs-20261003/new-addons/runtime-logs/artifacts-toggle45-probe/emc-02.tsv and artifact-roundtrip.tsv",
+    "result": "10 toggle-state records decoded; all 45 item identities round-tripped with component patch equality",
+    "limit": "real-player Transmutation Table UI interaction not tested"
+  }
+}

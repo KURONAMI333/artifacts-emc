@@ -1,0 +1,1 @@
+Give 40 exploration-found Artifacts EMC, including disabled toggle states, so ProjectE can transmute the items you find.

@@ -1,0 +1,246 @@
+{
+  "values": {
+    "before": [
+      {
+        "type": "projecte:item",
+        "emc_value": 8192,
+        "id": "artifacts:anglers_hat"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 8192,
+        "id": "artifacts:antidote_vessel"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 8192,
+        "id": "artifacts:aqua_dashers"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 8192,
+        "id": "artifacts:bunny_hoppers"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 32768,
+        "id": "artifacts:chorus_totem"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 16384,
+        "id": "artifacts:cloud_in_a_bottle"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 4096,
+        "id": "artifacts:cowboy_hat"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 16384,
+        "id": "artifacts:cross_necklace"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 32768,
+        "id": "artifacts:crystal_heart"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 8192,
+        "id": "artifacts:feral_claws"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 8192,
+        "id": "artifacts:fire_gauntlet"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 8192,
+        "id": "artifacts:flame_pendant"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 4096,
+        "id": "artifacts:flippers"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 8192,
+        "id": "artifacts:golden_hook"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 16384,
+        "id": "artifacts:helium_flamingo"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 8192,
+        "id": "artifacts:kitty_slippers"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 4096,
+        "id": "artifacts:novelty_drinking_hat"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 16384,
+        "id": "artifacts:obsidian_skull"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 4096,
+        "id": "artifacts:onion_ring"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 8192,
+        "id": "artifacts:panic_necklace"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 4096,
+        "id": "artifacts:plastic_drinking_hat"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 4096,
+        "id": "artifacts:pocket_piston"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 8192,
+        "id": "artifacts:power_glove"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 8192,
+        "id": "artifacts:running_shoes"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 8192,
+        "id": "artifacts:shock_pendant"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 8192,
+        "id": "artifacts:snorkel"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 4096,
+        "id": "artifacts:snowshoes"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 8192,
+        "id": "artifacts:steadfast_spikes"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 16384,
+        "id": "artifacts:strider_shoes"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 8192,
+        "id": "artifacts:thorn_pendant"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 16384,
+        "id": "artifacts:umbrella"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 16384,
+        "id": "artifacts:vampiric_glove"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 16384,
+        "id": "artifacts:warp_drive"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 1024,
+        "id": "artifacts:whoopee_cushion"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 8192,
+        "id": "artifacts:withered_bracelet"
+      },
+      {
+        "type": "projecte:item",
+        "id": "artifacts:charm_of_shrinking",
+        "emc_value": 8192
+      },
+      {
+        "type": "projecte:item",
+        "id": "artifacts:charm_of_shrinking",
+        "data": {
+          "artifacts:disabled_by_toggle": {}
+        },
+        "emc_value": 8192
+      },
+      {
+        "type": "projecte:item",
+        "id": "artifacts:charm_of_sinking",
+        "emc_value": 16384
+      },
+      {
+        "type": "projecte:item",
+        "id": "artifacts:charm_of_sinking",
+        "data": {
+          "artifacts:disabled_by_toggle": {}
+        },
+        "emc_value": 16384
+      },
+      {
+        "type": "projecte:item",
+        "id": "artifacts:night_vision_goggles",
+        "emc_value": 8192
+      },
+      {
+        "type": "projecte:item",
+        "id": "artifacts:night_vision_goggles",
+        "data": {
+          "artifacts:disabled_by_toggle": {}
+        },
+        "emc_value": 8192
+      },
+      {
+        "type": "projecte:item",
+        "id": "artifacts:scarf_of_invisibility",
+        "emc_value": 16384
+      },
+      {
+        "type": "projecte:item",
+        "id": "artifacts:scarf_of_invisibility",
+        "data": {
+          "artifacts:disabled_by_toggle": {}
+        },
+        "emc_value": 16384
+      },
+      {
+        "type": "projecte:item",
+        "id": "artifacts:universal_attractor",
+        "emc_value": 8192
+      },
+      {
+        "type": "projecte:item",
+        "id": "artifacts:universal_attractor",
+        "data": {
+          "artifacts:disabled_by_toggle": {}
+        },
+        "emc_value": 8192
+      }
+    ]
+  }
+}

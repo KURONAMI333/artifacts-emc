@@ -1,0 +1,9 @@
+Give 40 exploration-found Artifacts EMC with ProjectE, so a found item can enter the transmutation economy. Included examples are Flippers, Snowshoes, Cloud in a Bottle, and Umbrella. Five toggle items, including Night Vision Goggles, have matching values for normal and disabled states.
+
+For Minecraft 1.21.1 / NeoForge with Artifacts 13.2.5 and ProjectE 1.1.0. Six progression-sensitive items, Everlasting Beef, Eternal Steak, and the mimic spawn egg are excluded. The EMC prices are set by this addon; they are not pre-existing ProjectE values. Loot, recipes, and item effects are unchanged.
+
+An isolated server confirmed all 45 item states and component preservation with ProjectE Integration and Recipe Integration present. Client Transmutation Table output-taking, learned-item persistence, and individual modpack overrides have not been checked.
+
+<p><a href="https://www.patreon.com/KURONAMI333"><img src="https://raw.githubusercontent.com/KURONAMI333/music-disc-maker/6a0a895769575a1a58fd1fb6dfb15e259bcefccb/_docs/support/patreon.png" width="440" height="156" alt="Support my mods on Patreon"></a> <a href="https://x.com/kuronami333"><img src="https://raw.githubusercontent.com/KURONAMI333/music-disc-maker/6a0a895769575a1a58fd1fb6dfb15e259bcefccb/_docs/support/x.png" width="300" height="156" alt="Follow @kuronami333 on X"></a></p>
+
+License: All Rights Reserved. Modpack inclusion, including monetized packs, is permitted; standalone redistribution requires permission. The icon uses Artifacts textures by Wouter Pauwels under the [MIT license](https://github.com/KURONAMI333/artifacts-emc/blob/main/branding/ARTIFACTS_MIT_LICENSE.txt); see [asset credits](https://github.com/KURONAMI333/artifacts-emc/blob/main/branding/PROVENANCE.md). Questions and bugs: comment here or DM [@kuronami333](https://x.com/kuronami333). [Source code](https://github.com/KURONAMI333/artifacts-emc).

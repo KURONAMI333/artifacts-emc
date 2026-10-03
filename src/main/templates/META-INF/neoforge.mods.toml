@@ -1,0 +1,40 @@
+modLoader="lowcodefml"
+loaderVersion="[1,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="artifacts_emc"
+version="0.1.0"
+displayName="Artifacts: ProjectE EMC Addon"
+authors="KURONAMI"
+description='''
+Adds reviewed ProjectE EMC values to selected Artifacts items. Requires ProjectE and Artifacts.
+'''
+
+[[dependencies.artifacts_emc]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.artifacts_emc]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.227,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.artifacts_emc]]
+    modId="projecte"
+    type="required"
+    versionRange="[1.1.0]"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.artifacts_emc]]
+    modId="artifacts"
+    type="required"
+    versionRange="[13.2.5]"
+    ordering="AFTER"
+    side="BOTH"
