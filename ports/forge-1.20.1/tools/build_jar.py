@@ -39,6 +39,8 @@ def validate() -> dict[str, bytes]:
     mods = metadata.get("mods", [])
     if len(mods) != 1 or mods[0].get("modId") != "artifacts_emc" or mods[0].get("version") != "0.1.0":
         raise ValueError("unexpected Forge addon metadata")
+    if mods[0].get("displayName") != "EMC for Artifacts":
+        raise ValueError("final series identity mismatch")
     deps = {item.get("modId"): item for item in metadata.get("dependencies", {}).get("artifacts_emc", [])}
     expected_deps = {"minecraft": "[1.20.1]", "forge": "[47.0.46,)", "projecte": "[1.0.1]", "artifacts": "[9.5.19]"}
     if set(deps) != set(expected_deps):

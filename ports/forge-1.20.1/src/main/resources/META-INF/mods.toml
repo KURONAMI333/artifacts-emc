@@ -5,7 +5,7 @@ license="All Rights Reserved"
 [[mods]]
 modId="artifacts_emc"
 version="0.1.0"
-displayName="Artifacts: ProjectE EMC Addon"
+displayName="EMC for Artifacts"
 authors="KURONAMI"
 logoFile="logo.png"
 description="Adds author-designed ProjectE EMC values to selected Artifacts items. Requires ProjectE and Artifacts."

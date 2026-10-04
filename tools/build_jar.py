@@ -7,6 +7,7 @@ This packager intentionally contains no price table. It accepts a reviewed Proje
 from __future__ import annotations
 import argparse
 import json
+import tomllib
 from pathlib import Path, PurePosixPath
 import zipfile
 
@@ -102,6 +103,9 @@ def build(values_path: Path, output_path: Path) -> int:
     raw = json.loads(values_path.read_text(encoding="utf-8"))
     validate_values(raw)
     metadata = ROOT / "src/main/templates/META-INF/neoforge.mods.toml"
+    meta_doc = tomllib.loads(metadata.read_text(encoding="utf-8"))
+    if meta_doc["mods"][0]["modId"] != MOD_ID or meta_doc["mods"][0]["displayName"] != "EMC for Artifacts":
+        raise BuildInputError("final series identity mismatch")
     pack_meta = ROOT / "src/main/resources/pack.mcmeta"
     for required in (metadata, pack_meta):
         if not required.is_file():
