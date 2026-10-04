@@ -12,7 +12,7 @@ import zipfile
 ROOT = Path(__file__).resolve().parents[1]
 RES = ROOT / "src/main/resources"
 VALUES = RES / "data/artifacts_emc/pe_custom_conversions/artifacts_emc.json"
-OUTPUT = ROOT / "build/artifacts_emc-0.1.0+forge-1.20.1.jar"
+OUTPUT = ROOT / "build/emc-for-artifacts-0.1.0+forge-1.20.1.jar"
 EXPECTED_IDS = {
     "artifacts:anglers_hat", "artifacts:antidote_vessel", "artifacts:aqua_dashers",
     "artifacts:bunny_hoppers", "artifacts:charm_of_sinking", "artifacts:chorus_totem",

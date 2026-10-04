@@ -8,7 +8,7 @@ Build with `python3 tools/build_jar.py --values src/main/resources/data/artifact
 
 ## Forge 1.20.1 port
 
-The Forge port targets Minecraft 1.20.1, Forge 47.0.46+, Artifacts 9.5.19, and ProjectE PE1.0.1. Build its JAR with Python 3.11+ using `python3 ports/forge-1.20.1/tools/build_jar.py`. The portable source, icon, and `LICENSE` are under `ports/forge-1.20.1/`.
+The Forge port targets Minecraft 1.20.1, Forge 47.0.46+, Artifacts 9.5.19, and ProjectE PE1.0.1. Build its JAR with Python 3.11+ using `python3 ports/forge-1.20.1/tools/build_jar.py`; the output is `ports/forge-1.20.1/build/emc-for-artifacts-0.1.0+forge-1.20.1.jar`. The portable source, icon, and `LICENSE` are under `ports/forge-1.20.1/`.
 
 The Forge conversion table covers 36 ordinary tagged items plus four toggle-state identities (40 records total). Its runtime evidence is limited: representative price checks recorded 8192 EMC for both Night Vision Goggles and Universal Attractor in their default, OFF, and ON states. R7 then verified normal save/reopen and persistence of the toggled OFF state in the head and belt slots, followed by a clean client exit. The exact Forge JAR is 9008 bytes, SHA-256 `97dd67449800ff630267f2c7ef15dda146c3548fe6f6193c8056ab66c5e9aaaa`. All 40 identities were not individually inspected as live tooltips, and ProjectE transmutation/condenser output was not asserted.
 
